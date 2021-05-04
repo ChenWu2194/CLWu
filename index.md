@@ -3,7 +3,7 @@
 <div class="megaphone-section megaphone-section-welcome megaphone-overlay wa-layout wa-layout-2 d-flex justify-content-center align-items-center megaphone-subscribe-on">
     
 	<div class="entry-media">
-					<img width="1371" height="500" src="https://image.shutterstock.com/image-photo/sleeping-cat-white-stone-600w-1638617392.jpg" class="attachment-megaphone-wa-2 size-megaphone-wa-2" alt="breaking into startups" loading="lazy" />		    </div>
+					<img width="1371" height="500" src="https://user-images.githubusercontent.com/73732713/116947955-e5e0f680-ac32-11eb-8400-e54e0cdb340a.JPG" class="attachment-megaphone-wa-2 size-megaphone-wa-2" alt="breaking into startups" loading="lazy" />		    </div>
 
 	<div class="container overlay-container container-self-center d-flex align-items-center justify-content-center text-center">
 
