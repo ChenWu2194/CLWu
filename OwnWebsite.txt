@@ -7,28 +7,45 @@
 #id {};
 --variable {};
 .text{};
+h1{}; <!-- h1 is a built-in fxn -->
+
 text-align:justify, center, right, left;
 margin: 10px 20px 20px 10px <!-- top right botton left --> 
 padding: 10px
 border: 10px
 color: red, #FF0000; 
 background-color: rgba(45,45,45,0.1); <!-- a is opacity -->
+
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+background: repeating-linear-gradient(45deg, red 0px, yellow 40px, green 80px);
+background: url(#);
+
 font-size: 27px
 font-style: monotone;
 opacity: 0.7;
 text-transfrom= lowercase;uppercase;capitalize;initial <!-- use the default value -->; inherit <!-- from parent element-->;none <!-- default -->;
 font-weight: 400;
 line-height: 25px;
+background-color: hsl(0, 100%, 50%) <!-- color: hsl(hue,saturation,lightness)-->
 
 a:hover {
 	color: red;
 }
 
-position: relative; absolute; fixed <!-- wont move with scrollbar -->
+p:hover {
+transform: scale(2);
+}
+
+p {
+transform: scale(2); skewx(24deg);
+}
+
+position: relative; absolute; fixed <!-- wont move with scrollbar -->; sticky;
 bottom: 10px <!-- offset distance -->
 left: 10px;
 Float: left; right; <!-- tied with width for better visuals -->
-
+z-index: 1 <!-- whole number, higher number higher stack -->
+margin: auto <!-- center horizontally -->
 
 </style>
 
@@ -36,6 +53,10 @@ Float: left; right; <!-- tied with width for better visuals -->
 </head>
 
 <body>
+<h1 style="color: blue;">Header</h1>
+<div>
+<form><!-- Submit the results to --></form>
+</div>
 
 <div id="id name" class="text style">
 <u>underline</u>
@@ -43,6 +64,15 @@ Float: left; right; <!-- tied with width for better visuals -->
 <strong>bold</strong>
 <hr>horizontalline
 <em>italicized</em>
+<!important> <!-- first code -->
+</div>
+
+<div> 
+
+<ul>
+<li>unnumbered list</li>
+</ul>
+
 </div>
 
 <div>
@@ -52,6 +82,7 @@ Float: left; right; <!-- tied with width for better visuals -->
 
 <div>
 <input id=firstquestion type=radio>
+<button>ClickButton</button>
 </div>
 
 
